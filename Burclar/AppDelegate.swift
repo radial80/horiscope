@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Burclar
 //
-//  Created by Kasım Sağır on 4.01.2023.
+//  Created by Recep Uyduran on 4.01.2023.
 //
 
 import UIKit

@@ -7,15 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		483A1C172967433400F150E8 /* HoroscopeListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483A1C162967433400F150E8 /* HoroscopeListVC.swift */; };
+		483A1C1A2967482900F150E8 /* HoroscopeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483A1C182967482900F150E8 /* HoroscopeTableViewCell.swift */; };
+		483A1C1B2967482900F150E8 /* HoroscopeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 483A1C192967482900F150E8 /* HoroscopeTableViewCell.xib */; };
+		48C83A1F29798DA600CC46B4 /* HoroscopeDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C83A1E29798DA600CC46B4 /* HoroscopeDetailVC.swift */; };
 		48F913E82965E3A200B2407D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F913E72965E3A200B2407D /* AppDelegate.swift */; };
 		48F913EA2965E3A200B2407D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F913E92965E3A200B2407D /* SceneDelegate.swift */; };
 		48F913EC2965E3A200B2407D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F913EB2965E3A200B2407D /* ViewController.swift */; };
 		48F913EF2965E3A200B2407D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48F913ED2965E3A200B2407D /* Main.storyboard */; };
 		48F913F12965E3A300B2407D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48F913F02965E3A300B2407D /* Assets.xcassets */; };
 		48F913F42965E3A300B2407D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48F913F22965E3A300B2407D /* LaunchScreen.storyboard */; };
+		5AAD69443917D595E8648B5F /* Pods_Burclar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CE51C9EE61F884CD782713B /* Pods_Burclar.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		483A1C162967433400F150E8 /* HoroscopeListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoroscopeListVC.swift; sourceTree = "<group>"; };
+		483A1C182967482900F150E8 /* HoroscopeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoroscopeTableViewCell.swift; sourceTree = "<group>"; };
+		483A1C192967482900F150E8 /* HoroscopeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HoroscopeTableViewCell.xib; sourceTree = "<group>"; };
+		48C83A1E29798DA600CC46B4 /* HoroscopeDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoroscopeDetailVC.swift; sourceTree = "<group>"; };
 		48F913E42965E3A200B2407D /* Burclar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Burclar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48F913E72965E3A200B2407D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		48F913E92965E3A200B2407D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +33,9 @@
 		48F913F02965E3A300B2407D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		48F913F32965E3A300B2407D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		48F913F52965E3A300B2407D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CE51C9EE61F884CD782713B /* Pods_Burclar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Burclar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3B5511B1DF862D21C4A4074 /* Pods-Burclar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Burclar.debug.xcconfig"; path = "Target Support Files/Pods-Burclar/Pods-Burclar.debug.xcconfig"; sourceTree = "<group>"; };
+		DB418989CA829E0DAEEA2BD5 /* Pods-Burclar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Burclar.release.xcconfig"; path = "Target Support Files/Pods-Burclar/Pods-Burclar.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AAD69443917D595E8648B5F /* Pods_Burclar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +55,8 @@
 			children = (
 				48F913E62965E3A200B2407D /* Burclar */,
 				48F913E52965E3A200B2407D /* Products */,
+				8F62DFE1FDEA11A3A8FE5B69 /* Pods */,
+				926581D42C1183AE4FFA60A9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,8 +78,30 @@
 				48F913F02965E3A300B2407D /* Assets.xcassets */,
 				48F913F22965E3A300B2407D /* LaunchScreen.storyboard */,
 				48F913F52965E3A300B2407D /* Info.plist */,
+				483A1C162967433400F150E8 /* HoroscopeListVC.swift */,
+				483A1C182967482900F150E8 /* HoroscopeTableViewCell.swift */,
+				483A1C192967482900F150E8 /* HoroscopeTableViewCell.xib */,
+				48C83A1E29798DA600CC46B4 /* HoroscopeDetailVC.swift */,
 			);
 			path = Burclar;
+			sourceTree = "<group>";
+		};
+		8F62DFE1FDEA11A3A8FE5B69 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D3B5511B1DF862D21C4A4074 /* Pods-Burclar.debug.xcconfig */,
+				DB418989CA829E0DAEEA2BD5 /* Pods-Burclar.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		926581D42C1183AE4FFA60A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5CE51C9EE61F884CD782713B /* Pods_Burclar.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +111,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 48F913F82965E3A300B2407D /* Build configuration list for PBXNativeTarget "Burclar" */;
 			buildPhases = (
+				2ADD00928F85E1241AB1E24F /* [CP] Check Pods Manifest.lock */,
 				48F913E02965E3A200B2407D /* Sources */,
 				48F913E12965E3A200B2407D /* Frameworks */,
 				48F913E22965E3A200B2407D /* Resources */,
+				99A28F03B6A7311061EA1D06 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,6 +164,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				483A1C1B2967482900F150E8 /* HoroscopeTableViewCell.xib in Resources */,
 				48F913F42965E3A300B2407D /* LaunchScreen.storyboard in Resources */,
 				48F913F12965E3A300B2407D /* Assets.xcassets in Resources */,
 				48F913EF2965E3A200B2407D /* Main.storyboard in Resources */,
@@ -133,6 +173,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2ADD00928F85E1241AB1E24F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Burclar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99A28F03B6A7311061EA1D06 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Burclar/Pods-Burclar-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Burclar/Pods-Burclar-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Burclar/Pods-Burclar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		48F913E02965E3A200B2407D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -140,7 +222,10 @@
 			files = (
 				48F913EC2965E3A200B2407D /* ViewController.swift in Sources */,
 				48F913E82965E3A200B2407D /* AppDelegate.swift in Sources */,
+				48C83A1F29798DA600CC46B4 /* HoroscopeDetailVC.swift in Sources */,
 				48F913EA2965E3A200B2407D /* SceneDelegate.swift in Sources */,
+				483A1C172967433400F150E8 /* HoroscopeListVC.swift in Sources */,
+				483A1C1A2967482900F150E8 /* HoroscopeTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +367,7 @@
 		};
 		48F913F92965E3A300B2407D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3B5511B1DF862D21C4A4074 /* Pods-Burclar.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +396,7 @@
 		};
 		48F913FA2965E3A300B2407D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB418989CA829E0DAEEA2BD5 /* Pods-Burclar.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
